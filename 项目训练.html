@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目训练</title>
+    <style>
+        .box{
+            border: solid 1px white;
+            height: 150px;
+            width: 1100px;
+            margin-left: 180px;
+            position: relative;
+            background: rgb(170,170,170);
+        }
+        .shang1{
+            /*border: blue 1px solid;*/
+            height: 100px;
+            width: 150px;
+            margin: 25px 25px 25px 25px;
+            background: cadetblue;
+        }
+        #guang1{
+            position: absolute;
+            top: 65px;
+            left: 200px;
+            font-size: 20px;
+        }
+        .boxten{
+           /* border: solid 1px black;*/
+            height: 300px;
+            width: 1100px;
+            margin-left: 180px;
+            margin-top: 10px;
+            position: relative;
+        }
+        .lef{
+            width: 360px;
+            height: 300px;
+            border: black 1px solid;
+            margin-right: 10px;
+        }
+        .ten{
+            width: 360px;
+            height: 300px;
+            border: black 1px solid;
+            margin-right: 10px;
+            position: absolute;
+            top: 0;
+            left: 370px;
+        }
+        .rig{
+            width: 360px;
+            height: 300px;
+            border: black 1px solid;
+            margin-right: 10px;
+            position: absolute;
+            top: 0;
+            left: 740px;
+        }
+        .top{
+            height: 30px;
+            width: 360px;
+            border: solid 1px white;
+            background: rgb(170,170,170);
+        }
+        #si{
+            font-size: 18px;
+            margin-top: 6px;
+        }
+        #duo{
+            font-size: 18px;
+            margin-top: 1px;
+            float: right;
+        }
+        .zi{
+            margin-bottom: 13px;
+            font-size: 12px;
+        }
+        #zhi1{
+            position: absolute;
+            top: 10px;
+            left: 30px;
+        }
+        .biao{
+            /*border: red 1px solid;*/
+            height: 270px;
+            width: 360px;
+            position: relative;
+        }
+        .dan{
+            position: absolute;
+            top: 12px;
+            left: 110px;
+        }
+        .zhi2{
+            margin-top: 100px;
+            margin-left: 30px;
+        }
+        .zhi4{
+            margin-top: 4px;
+            margin-left: 112px;
+            height: 80px;
+            width: 220px;
+        }
+        .zhi6{
+           position: absolute;
+            top: 90px;
+            left: 30px;
+        }
+        .zhi5{
+            margin-left: 110px;
+            margin-top: 5px;
+        }
+        .xiakuang{
+            height: 150px;
+            width: 1100px;
+           /* border: red 1px solid;*/
+            margin-top: 10px;
+            position: relative;
+        }
+        .kuang1{
+            border: black 1px solid;
+            width: 360px;
+            height: 100%;
+        }
+        .kuang2{
+            height: 100%;
+            width: 730px;
+            border: 1px solid black;
+            position: absolute;
+            top: 0;
+            left: 370px;
+        }
+        .bor{
+            height: 20px;
+            width: 100%;
+           /* border: 1px solid blue;*/
+            background: rgb(170,170,170);
+        }
+        .ai{
+           margin-bottom: 10px;
+        }
+        .hu{
+            height: 100px;
+            width: 160px;
+            /*border: black 1px solid;*/
+            margin: 10px 10px 10px 10px;
+            float: left;
+            background: lightcoral;
+        }
+        .jing{
+            border: black 1px solid;
+            height: 20px;
+            width: 1100px;
+            margin-top: 5px;
+            background: rgb(170,170,170);
+            position: relative;
+        }
+        .li{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 第一行 -->
+    <div class="box">
+        <div class="shang1"></div>
+        <span id="guang1">广元市亲和家政公司</span>
+    </div>
+    <!-- 第二行 -->
+    <div class="boxten">
+        <div class="lef">
+            <div class="top">
+                <span id="si">公司动态</span>
+                <span id="duo">更多. . .</span>
+            </div>
+            <ul>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。</li>
+            </ul>
+        </div>
+        <div class="ten">
+            <div class="top">
+                <span id="si">服务预约</span>
+                <div class="biao">
+                    <span class="zhi2">预约项目：</span>
+                    <select class="zhi3">
+                    <option value="" class="dan">月嫂服务</option>
+                    <option value="" class="dan">月嫂服务</option>
+                    <option value="" class="dan">月嫂服务</option>
+                    <option value="" class="dan">月嫂服务</option>
+                    <option value="" class="dan">月嫂服务</option>
+                    <option value="" class="dan">月嫂服务</option>
+                    <option value="" class="dan">月嫂服务</option>
+                    </select><br>
+                    <span class="zhi2">预约时间：</span>
+                    <input type="text" class="zhi3"><br>
+                    <span class="zhi2">预约时间：</span>
+                    <input type="text" class="zhi3"><br>
+                    <span class="zhi2">预约时间：</span>
+                    <input type="text" class="zhi3"><br>
+                    <span class="zhi6">其它说明：</span>
+                    <input type="text" class="zhi4">
+                    <input type="submit" value="提交" class="zhi5">
+                </div>
+                
+            </div>
+        </div>
+        <div class="rig">
+            <div class="top">
+                <span id="si">公司动态</span>
+                <span id="duo">更多. . .</span>
+            </div>
+            <ul>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+                <li class="zi">热烈庆祝我公司荣获全市月搜技能竞赛第一。（01-02）</li>
+            </ul>
+        </div>
+        <!-- 第三行 -->
+        <div class="xiakuang">
+            <div class="kuang1">
+                <div class="bor">&nbsp&nbsp&nbsp联系我们</div>
+                <span class="ai">地址：广元市东坝佳灵路</span><br>
+                <span class="ai">地址：广元市东坝佳灵路</span><br>
+                <span class="ai">地址：广元市东坝佳灵路</span><br>
+                <span class="ai">地址：广元市东坝佳灵路</span><br>
+            </div>
+            <div class="kuang2">
+                <div class="bor">&nbsp&nbsp&nbsp月搜风采</div>
+                <div class="hu"></div>
+                <div class="hu"></div>
+                <div class="hu"></div>
+                <div class="hu"></div>
+            </div>
+            <div class="jing">
+                <span class="li">版权所有：（广元亲和家政）</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
